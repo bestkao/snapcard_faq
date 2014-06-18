@@ -14,6 +14,10 @@ h1 {
   text-align: center;
   margin-bottom: 60px;
 }
+a {
+  color: #506368;
+}
+
 
 #footer {
   position: absolute;
@@ -42,10 +46,6 @@ body > .container {
   padding-right: 5%;
   padding-left: 5%;
   padding-top: 48px;
-}
-
-code {
-  font-size: 80%;
 }
 
 /* Navigation bar */
@@ -79,15 +79,15 @@ code {
     padding-bottom: 0px;
     color: #FFFFFF;
   }
-}
-.navbar-center {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  text-align: center;
-  margin-top: 5px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  .navbar-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
 #navbar-signin {
   padding-top: 15px;
@@ -102,9 +102,24 @@ code {
   margin-left: 24px;
 }
 
-/* Body
+/* Body */
+.panel-default {
+  border-color: #ffffff;
+}
+.panel-default > .panel-heading {
+  padding-top: 24px;
+  background-color: #ffffff;
+}
+.panel-body {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+/* TODO List
+
+align navbar width with body
+fix navbar-collapse menu
+icons for FAQ panel-headings
 - glyphicon-chevron-down
 - http://getbootstrap.com/components/#glyphicons
 */
-
-
