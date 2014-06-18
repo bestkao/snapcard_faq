@@ -58,19 +58,11 @@ code {
 .navbar-default .navbar-brand {
   background-color: #cc9966;
   color: #FFFFFF;
-<<<<<<< HEAD
-=======
   border-radius: 2px;
->>>>>>> develop
 }
 .navbar-default:hover .navbar-brand:hover {
   background-color: #cc9966;
   color: #FFFFFF;
-<<<<<<< HEAD
-}
-.nav-user {
-	float: right;
-=======
   border-radius: 2px;
 }
 .navbar-default .navbar-nav > li > a {
@@ -108,15 +100,11 @@ code {
   padding-bottom: 15px;
   color: #FFFFFF;
   margin-left: 24px;
->>>>>>> develop
 }
 
 /* Body
 - glyphicon-chevron-down
 - http://getbootstrap.com/components/#glyphicons
 */
-<<<<<<< HEAD
-=======
 
 
->>>>>>> develop
