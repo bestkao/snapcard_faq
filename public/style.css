@@ -12,6 +12,7 @@ body {
 }
 h1 {
   text-align: center;
+  margin-bottom: 60px;
 }
 
 #footer {
@@ -30,15 +31,16 @@ h1 {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 60px 5% 60px 5%;
+  color: #899fa4;
 }
 .container .text-muted {
   margin: 20px 0;
 }
 
 #footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5%;
+  padding-left: 5%;
   padding-top: 48px;
 }
 
@@ -46,8 +48,63 @@ code {
   font-size: 80%;
 }
 
+/* Navigation bar */
 .navbar {
   background-color: #dea372;
-  padding-top:24px;
-  padding-bottom:24px;
+  margin: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+.navbar-default .navbar-brand {
+  background-color: #cc9966;
+  color: #FFFFFF;
+  border-radius: 2px;
+}
+.navbar-default:hover .navbar-brand:hover {
+  background-color: #cc9966;
+  color: #FFFFFF;
+  border-radius: 2px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+.nav .navbar-nav {
+  padding: 0px;
+  border-radius: 0px;
+}
+
+@media (min-width: 768px){
+  .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #FFFFFF;
+  }
+}
+.navbar-center {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#navbar-signin {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #FFFFFF;
+}
+#navbar-signup {
+  background-color: #cc9966;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #FFFFFF;
+  margin-left: 24px;
+}
+
+/* Body
+- glyphicon-chevron-down
+- http://getbootstrap.com/components/#glyphicons
+*/
+
+
